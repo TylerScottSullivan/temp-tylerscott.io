@@ -1,8 +1,59 @@
-body {
-  padding: 50px;
+html, body {
+  background-color: #0a0a0f;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: white;
+  height: 100%;
+  margin: 0;
 }
 
-a {
-  color: #00B7FF;
+
+.homepage {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.hp-header > div {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 175px;
+	padding: 10% 10% 3% 10%;
+
+}
+
+.hp-author {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+.hp-find {
+	font-size: 20px;
+	margin-top: 90px;
+}
+
+.hp-resume {
+	font-size: 25px;
+	font-weight: 700;
+	padding: 10px;
+
+}
+
+.hp-icon {
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+}
+
+
+@media (max-width: 650px) {
+	.hp-header {
+		font-size: 90px;
+		margin-bottom: 50px;
+	}
+}
+
+a:link, a:visited, a:hover, a:active {
+	color: white;
+	text-decoration: none;
 }
