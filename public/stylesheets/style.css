@@ -13,12 +13,15 @@ html, body {
 	align-items: center;
 }
 
-.hp-header > div {
+.hp-header > .hp-header-text {
 	text-align: center;
 	font-family: sans-serif;
-	font-size: 175px;
 	padding: 10% 10% 3% 10%;
 
+}
+
+.hp-header-text {
+	font-size: 175px;
 }
 
 .hp-author {
@@ -48,8 +51,19 @@ html, body {
 
 @media (max-width: 650px) {
 	.hp-header {
-		font-size: 90px;
 		margin-bottom: 50px;
+	}
+	
+	.hp-header-text {
+		font-size: 75px;
+	}
+
+	.hp-author {
+		font-size: 40px;
+	}
+
+	.hp-icon {
+		padding-bottom: 30px;
 	}
 }
 
