@@ -77,11 +77,20 @@ html, body {
 
 .box-1 {
 	position: absolute;
-	margin-left: -100px;
+	margin-left: -130px;
 	width: 500px;
 	height: 500px;
 	border-radius: 250px;
-	background-color: rgba(255, 255, 77, 0.9);
+	background-color: rgba(255, 255, 77, 0.8);
+
+	-webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+}
+
+.box-1:hover {
+	background-color: rgba(255, 255, 77, .9);
 }
 
 .box-2 {
@@ -90,16 +99,98 @@ html, body {
 	width: 500px;
 	height: 500px;
 	border-radius: 250px;
-	background-color: rgba(255, 166, 77, 0.9);
+	background-color: rgba(255, 166, 77, 0.8);
+
+	-webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+}
+
+.box-2:hover {
+	background-color: rgba(255, 166, 77, .9);
 }
 
 .box-3 {
 	position: absolute;
-	margin-left: 600px;
+	margin-left: 630px;
 	width: 500px;
 	height: 500px;
 	border-radius: 250px;
-	background-color: rgba(255, 77, 77, 0.9);
+	background-color: rgba(255, 77, 77, 0.8);
+
+	-webkit-transition: color 0.5s linear, background-color 0.5s linear;
+    -moz-transition: color 0.5s linear, background-color 0.5s linear;
+    -o-transition: color 0.5s linear, background-color 0.5s linear;
+    transition: color 0.5s linear, background-color 0.5s linear;
+}
+
+.box-3:hover {
+	background-color: rgba(255, 77, 77, .9);
+}
+
+.box-title {
+	position: relative;
+	text-align: center;
+	margin: auto;
+/*	margin-top: 50px;
+	margin-left: 100px;*/
+	font-size: 50px;
+	padding-bottom: 5px;
+	border-bottom-style: solid;
+	border-top, border-left, border-right: none;
+	border-bottom-width: 5px;
+}
+
+.bt-c1 {
+	width: 260px;
+}
+.bt-c1, .bt-c2 {
+	margin-top: 40px;
+}
+
+.bt-c2 {
+	width: 260px;
+}
+.bt-c3 {
+	margin-top: 20px;
+	width: 330px;
+}
+
+.bullets {
+	font-size: 20px;
+	position: relative;
+}
+
+
+.b1b {
+	margin-left: 50px;
+	width: 280px;
+}
+
+.b1b > li {
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
+.b2b {
+	margin-left: 110px;
+	width: 220px;
+}
+
+.b2b > li {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.b3b {
+	margin-left: 120px;
+	width: 250px;
+}
+
+.b3b > li {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 /*#circle {
