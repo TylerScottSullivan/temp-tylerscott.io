@@ -20,12 +20,12 @@ html, body {
 
 .hp-header > .hp-header-text-p2 {
 	text-align: center;
-	padding: 2% 15%;
+	padding: 5% 15% 2% 15%;
 }
 
 .hp-header > .hp-header-text-p3 {
 	text-align: center;
-	padding: 0 10% 5% 10%;
+	padding: 0 10% 2% 10%;
 }
 
 .hp-header-text-p1 {
@@ -39,17 +39,17 @@ html, body {
 }
 
 .hp-header-text-p2, .hp-header-text-p3 {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .hp-author {
 	text-align: center;
-	font-size: 30px;
+	font-size: 15px;
 }
 
 .hp-find {
 	font-size: 20px;
-	margin-top: 90px;
+	margin-top: 50px;
 }
 
 .hp-resume {
@@ -65,33 +65,48 @@ html, body {
 
 .hp-boxes {
 	width: 1000px;
-	height: 400px;
+	height: 500px;
 }
 
 .flex {
 	width: 100%;	
 	height: 100%;
-	display: flex;
-	justify-content: space-between;
+/*	display: flex;
+	justify-content: space-between;*/
 }
 
 .box-1 {
-	width: 33%;	
-	height: 100%;
-	background-color: yellow;
+	position: absolute;
+	margin-left: -100px;
+	width: 500px;
+	height: 500px;
+	border-radius: 250px;
+	background-color: rgba(255, 255, 77, 0.9);
 }
 
 .box-2 {
-	width: 33%;	
-	height: 100%;
-	background-color: orange;
+	position: absolute;
+	margin-left: 250px;
+	width: 500px;
+	height: 500px;
+	border-radius: 250px;
+	background-color: rgba(255, 166, 77, 0.9);
 }
 
 .box-3 {
-	width: 33%;	
-	height: 100%;
-	background-color: red;
+	position: absolute;
+	margin-left: 600px;
+	width: 500px;
+	height: 500px;
+	border-radius: 250px;
+	background-color: rgba(255, 77, 77, 0.9);
 }
+
+/*#circle {
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}*/
 
 @media (max-width: 650px) {
 	.hp-header {
