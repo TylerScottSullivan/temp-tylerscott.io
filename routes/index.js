@@ -4,7 +4,7 @@ const fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Coming Soon' });
+  res.render('index', { title: 'Tyler S. Sullivan' });
 });
 
 

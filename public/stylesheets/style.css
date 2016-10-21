@@ -13,19 +13,38 @@ html, body {
 	align-items: center;
 }
 
-.hp-header > .hp-header-text {
+.hp-header > .hp-header-text-p1 {
 	text-align: center;
-	padding: 10% 10% 3% 10%;
-
+	padding: 5% 10%;
 }
 
-.hp-header-text {
-	font-size: 120px;
+.hp-header > .hp-header-text-p2 {
+	text-align: center;
+	padding: 2% 15%;
+}
+
+.hp-header > .hp-header-text-p3 {
+	text-align: center;
+	padding: 0 10% 5% 10%;
+}
+
+.hp-header-text-p1 {
+	font-size: 100px;
+	width: 800px;
+}
+
+.hp-header-text-p2 {
+	width: 500px;
+	margin: auto;
+}
+
+.hp-header-text-p2, .hp-header-text-p3 {
+	font-size: 25px;
 }
 
 .hp-author {
 	text-align: center;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .hp-find {
@@ -44,6 +63,35 @@ html, body {
 	padding: 10px;
 }
 
+.hp-boxes {
+	width: 1000px;
+	height: 400px;
+}
+
+.flex {
+	width: 100%;	
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.box-1 {
+	width: 33%;	
+	height: 100%;
+	background-color: yellow;
+}
+
+.box-2 {
+	width: 33%;	
+	height: 100%;
+	background-color: orange;
+}
+
+.box-3 {
+	width: 33%;	
+	height: 100%;
+	background-color: red;
+}
 
 @media (max-width: 650px) {
 	.hp-header {
