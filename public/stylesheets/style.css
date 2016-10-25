@@ -151,6 +151,7 @@ html, body {
 .bt-c1 {
 	width: 260px;
 }
+
 .bt-c1, .bt-c2 {
 	margin-top: 40px;
 }
@@ -158,6 +159,7 @@ html, body {
 .bt-c2 {
 	width: 260px;
 }
+
 .bt-c3 {
 	margin-top: 20px;
 	width: 330px;
@@ -168,7 +170,6 @@ html, body {
 	position: relative;
 }
 
-
 .b1b {
 	margin-left: 50px;
 	width: 280px;
@@ -176,7 +177,7 @@ html, body {
 
 .b1b > li {
 	padding-top: 10px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .b2b {
